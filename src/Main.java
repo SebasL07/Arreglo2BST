@@ -12,8 +12,9 @@ public class Main {
 
         BST tree = new BST();
 
-        tree.addNode(arrayNames,null,0,arrayNames.length-1);
+        tree.addNode(arrayNames,0,arrayNames.length-1);
         tree.print();
+        System.out.println(tree.deep());
 
     }
 }
